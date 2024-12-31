@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Art Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+        <!-- Login Page -->
+    </main><section id="login" class="auth-page">
+        <h2>Login</h2>
+        <form>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+    
+            <button type="submit">Login</button>
+            <p>Don’t have an account? <a href="#signup">Register</a></p>
+        </form>
+    </section>
+        <!-- Sign-Up Page -->
+        <section id="signup" class="auth-page">
+            <h2>Create Your Account</h2>
+            <form>
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+        
+                <label for="email-signup">E-mail</label>
+                <input type="email" id="email-signup" name="email-signup" required>
+        
+                <label for="password-signup">Password</label>
+                <input type="password" id="password-signup" name="password-signup" required>
+        
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+        
+                <button type="submit">Register</button>
+                <p>Yes, I have an account? <a href="#login">Login</a></p>
+            </form>
+        </section>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Digital Art Showcase</div>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#category">Category</a>
+            <a href="#profile">Profile</a>
+        </nav>
+        <div class="nav-buttons">
+            <button class="upload-btn">Upload your Work</button>
+            <button class="signout-btn">Sign Out</button>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <main id="home">
+        <section class="art-section">
+            <h2>Digital Art Work</h2>
+            <div class="art-gallery">
+                <div class="art-item">
+                    <img src="image/1.png" alt="Art 1">
+                </div>
+                <div class="art-item">
+                    <img src="image/2.jpg" alt="Art 2">
+                </div>
+                <div class="art-item">
+                    <img src="image/3.jpeg" alt="Art 3">
+                </div>
+                <div class="art-item">
+                    <img src="image/4.jpeg" alt="Art 4">
+                </div>
+            </div>
+        </section>
+
+        <section class="art-section">
+            <h2>Recents Digital</h2>
+            <div class="art-gallery">
+                <div class="art-item">
+                    <img src="image/5.png" alt="Art 5">
+                </div>
+                <div class="art-item">
+                    <img src="image/6.jpg" alt="Art 6">
+                </div>
+                <div class="art-item">
+                    <img src="image/7.png" alt="Art 7">
+                </div>
+                <div class="art-item">
+                    <img src="image/8.png" alt="Art 8">
+                </div>
+            </div>
+        </section>  
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; DIGITL  ART</p>
+    </footer>
+</body>
+</html>
+
+

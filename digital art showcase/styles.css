@@ -1,0 +1,200 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0b2015;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #123824;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #22c55e;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    background-color: #22c55e;
+    color: #0b2015;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons .upload-btn {
+    background-color: #22c55e;
+    color: #0b2015;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons .upload-btn:hover {
+    background-color: #18a34e;
+}
+
+.nav-buttons .signout-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-buttons .signout-btn:hover {
+    background-color: #ffffff;
+    color: #0b2015;
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    margin-top: 20px;
+    color: #22c55e;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Art Gallery Section */
+.art-section {
+    padding: 20px;
+}
+
+.art-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #22c55e;
+    font-size: 1.8em;
+}
+
+.art-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.art-item {
+    background-color: #123824;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.art-item img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Authentication Pages */
+.auth-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #123824;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.auth-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #22c55e;
+}
+
+.auth-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-page form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.auth-page form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0b2015;
+    color: #ffffff;
+}
+
+.auth-page form button {
+    padding: 10px;
+    background-color: #22c55e;
+    color: #0b2015;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.auth-page form button:hover {
+    background-color: #18a34e;
+}
+
+.auth-page form p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.auth-page form p a {
+    color: #22c55e;
+    text-decoration: none;
+}
+
+.auth-page form p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #123824;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
